@@ -357,3 +357,91 @@ footer {
     align-items: center;
     margin-top: 15px;
 }
+
+
+
+/* =========================
+   Medium Devices (Tablet)
+========================= */
+@media screen and (max-width: 992px) {
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Navbar */
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    /* Hero */
+    .hero {
+        height: auto;
+        padding: 80px 20px;
+    }
+
+    .hero-texts {
+        max-width: 90%;
+    }
+
+    .hero h1 {
+        font-size: 56px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    /* Speakers */
+    .speakers-section h1 {
+        font-size: 42px;
+    }
+
+    .speakers {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    /* Packages */
+    .package-cards {
+        flex-direction: column;
+    }
+
+    .package-card,
+    .pro-card {
+        width: auto;
+    }
+
+    /* Why Attend */
+    .why-attent-heading h1 {
+        font-size: 40px;
+    }
+
+    .why-attent-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Footer */
+    .footer {
+        width: 90%;
+    }
+
+    .footer-top,
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
